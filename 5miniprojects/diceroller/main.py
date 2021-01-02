@@ -18,6 +18,7 @@ class Dice(turtle.Turtle):
         self.penup()
         self.numberRolled = 0
         self.dicePen = turtle.Turtle()
+        self.hideturtle()
 
     def dodiceroll(self, faces):
         previousNumber = self.numberRolled
@@ -32,9 +33,9 @@ class Dice(turtle.Turtle):
         self.dicePen.clear()
         self.dicePen.color("white")
         self.dicePen.penup()
+        self.dicePen.hideturtle()
         self.dicePen.goto(-0, 20)
         self.dicePen.write(self.numberRolled, align="center", font=("Courier", 150, "normal"))
-        self.dicePen.ht()
 
 class Game:
     def __init__(self):
@@ -46,7 +47,7 @@ class Game:
         self.pen.color("white")
         self.pen.pensize(3)
         self.pen.penup()
-        self.pen.ht()
+        self.pen.hideturtle()
         self.pen.goto(-100, 200)
         self.pen.pendown()
         for side in range(4):
