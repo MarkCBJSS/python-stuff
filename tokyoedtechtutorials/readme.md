@@ -7,6 +7,8 @@ Christian Thompson (https://christianthompson.com ) creates tutorials for kids t
 I added this as system 0-0 and game 0-0 are not the same.
 This takes the system co-ords and transforms them into game co-ords.
 
+<p float="left"><img src="https://github.com/MarkCBJSS/python-stuff/blob/master/tokyoedtechtutorials/gamecoordinatefinder/game-coord-finder.png" width="100" /></p>
+
 ## Games / Apps
 
 ### Calculator
