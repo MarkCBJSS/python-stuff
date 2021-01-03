@@ -8,3 +8,4 @@ Die faces can be set at line 62:
     
 Press 'r' to roll.
 
+![Dice Roller](https://github.com/MarkCBJSS/python-stuff/blob/master/5miniprojects/diceroller/dice-roller.png?raw=true)
