@@ -2,7 +2,7 @@
 Christian Thompson (https://christianthompson.com ) creates tutorials for kids to learn Python, mostly with Turtle. Some are a few years old, but they're all good intros to Python programming.
 
 ## Game Coordinate Finder
-I added this as syste 0-0 and game 0-0 are not the same.
+I added this as system 0-0 and game 0-0 are not the same.
 This takes the system co-ords and transforms them into game co-ords.
 
 ## Games / Apps
