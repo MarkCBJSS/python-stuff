@@ -1,3 +1,5 @@
+Keywords: Python, Tkinter, Turtle
+
 # About this Repo
 Christian Thompson (https://christianthompson.com ) creates tutorials for kids to learn Python, mostly with Turtle. Some are a few years old, but they're all good intros to Python programming.
 
