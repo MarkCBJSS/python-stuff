@@ -77,10 +77,10 @@ def draw_grid():
         grid_pen.pendown()
         grid_pen.fd(length)
         grid_pen.penup()
-        temphorX = horX - 20
+        temphorX = horX - 30
         temphorY = horY - 5
         grid_pen.setposition(temphorX, temphorY)
-        grid_pen.write(horY)
+        grid_pen.write(horY, font=("Courier", 10, "normal"))
         horY += -100
         count += 1
 
@@ -96,7 +96,7 @@ def draw_grid():
         tempverY = verY + 5
         tempverX = verX - 5
         grid_pen.setposition(tempverX, tempverY)
-        grid_pen.write(verX)
+        grid_pen.write(verX, font=("Courier", 10, "normal"))
         verX += 100
         count += 1
 
@@ -131,7 +131,7 @@ def motion(event):
     if x <= 424 and y <= 398:
         x = 424 - x
         y = 398 - y
-        print('X --{}, Y {}'.format(x, y))
+        print('X -{}, Y {}'.format(x, y))
     elif x > 424 and y < 398:
         x = x - 424
         y = 398 - y
@@ -139,7 +139,7 @@ def motion(event):
     elif x <= 424 and y >= 398:
         x = 424 - x
         y = y - 398
-        print('X --{}, Y -{}'.format(x, y))
+        print('X -{}, Y -{}'.format(x, y))
     else:
         x = x - 424
         y = y - 398
