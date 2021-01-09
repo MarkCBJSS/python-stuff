@@ -22,6 +22,7 @@ import turtle
 wn = turtle.Screen()
 wn.bgcolor("Black")
 wn.title("~ Position Checker ~")
+wn.tracer(0)
 
 # Draw a border around the game space
 border_pen = turtle.Turtle()
@@ -130,7 +131,7 @@ def motion(event):
     if x <= 424 and y <= 398:
         x = 424 - x
         y = 398 - y
-        print('X -{}, Y {}'.format(x, y))
+        print('X --{}, Y {}'.format(x, y))
     elif x > 424 and y < 398:
         x = x - 424
         y = 398 - y
@@ -138,7 +139,7 @@ def motion(event):
     elif x <= 424 and y >= 398:
         x = 424 - x
         y = y - 398
-        print('X -{}, Y -{}'.format(x, y))
+        print('X --{}, Y -{}'.format(x, y))
     else:
         x = x - 424
         y = y - 398
