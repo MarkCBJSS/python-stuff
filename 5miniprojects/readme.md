@@ -10,7 +10,6 @@ and [Kylie Ying](https://www.youtube.com/ycubed).
 - Guess the Number
 - Rock Paper Scissors
 - Hangman Game
-- Text Based Adventure
 
 To run in your IDE you may need to:
 1) Make a new project
