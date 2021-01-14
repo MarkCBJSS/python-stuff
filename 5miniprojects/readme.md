@@ -2,13 +2,13 @@ Keywords: Python, Turtle
 
 # About this Repo
 
-This set of examples comes from the website at:
-
-https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/
+This set of examples comes from:
+[Knightlab](https://knightlab.northwestern.edu/2014/06/05/five-mini-programming-projects-for-the-python-beginner/)
+and [Kylie Ying](https://www.youtube.com/ycubed).
 
 - Dice Rolling Simulator
 - Guess the Number
-- Mad Libs Generator
+- Rock Paper Scissors
 - Hangman Game
 - Text Based Adventure
 
