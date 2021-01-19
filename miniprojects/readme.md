@@ -1,4 +1,5 @@
 Keywords: Python, Turtle
+Python Library Imports: Turtle, Random, Time, String
 
 # About this Repo
 
